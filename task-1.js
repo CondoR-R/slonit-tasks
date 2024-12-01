@@ -7,7 +7,7 @@ function getNumber(a, b) {
 }
 
 function getBinarySearchNumber(low, hight) {
-  return Math.round((low + hight) / 2);
+  return Math.trunc((low + hight) / 2);
 }
 
 function game(a, b) {
